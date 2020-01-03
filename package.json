@@ -1,0 +1,18 @@
+{
+  "name": "angie",
+  "version": "1.0.0",
+  "description": "Template language",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-dipeshy:dipeshy/angie.git"
+  },
+  "author": "maxdipesh@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
