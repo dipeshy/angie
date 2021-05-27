@@ -40,7 +40,7 @@ function ast(text) {
                     break;
                 case nodeTypes.EachStatement:
                     var eachExpression = match[4]
-                    var expressionParts = eachExpression.match(/^(([\w]+)\sin\s)?([\w]+)$/);
+                    var expressionParts = eachExpression.match(/^(([\w]+)\sin\s)?([\w\.]+)$/);
                     if (!expressionParts) {
                         throw new Error('Invalid expression for each statement at index: ' + match.index);
                     }
